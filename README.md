@@ -78,19 +78,19 @@
   <li>Best parameters via GridSearchCV:
     <pre>{'model__learning_rate': 0.2, 'model__max_depth': 5, 'model__n_estimators': 200}</pre>
   </li>
-  <li>Best CV R²: 0.8861</li>
-  <li><b>Test Set:</b> R² = 0.9201, MAE = 61,017.39</li>
+  <li>Best CV R²: 0.9930</li>
+  <li><b>Test Set:</b> R² = 0.9933, MAE = 11480.94</li>
   <li>Saved as <code>xgboost_pipeline_tuned.pkl</code></li>
 </ul>
 
 <h3> Final Evaluation (Best Model)</h3>
 <table border="1" cellpadding="6">
   <tr><th>Metric</th><th>Value</th></tr>
-  <tr><td>MAE</td><td>61,017.39</td></tr>
-  <tr><td>MSE</td><td>9,242,890,665.50</td></tr>
-  <tr><td>RMSE</td><td>96,139.95</td></tr>
-  <tr><td>R²</td><td>0.9201</td></tr>
-  <tr><td>MAPE</td><td>15.02%</td></tr>
+  <tr><td>MAE</td><td>11480.94</td></tr>
+  <tr><td>MSE</td><td>284920425.62</td></tr>
+  <tr><td>RMSE</td><td>16879.59</td></tr>
+  <tr><td>R²</td><td>0.9933</td></tr>
+  <tr><td>MAPE</td><td>3.15%</td></tr>
 </table>
 
 <h2> Experiments with Feature Engineering</h2>
