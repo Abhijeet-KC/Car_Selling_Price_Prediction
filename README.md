@@ -109,13 +109,13 @@
 
 <p><strong>Conclusion:</strong> Keeping both raw and derived features provided the highest predictive power. Removing source columns (like <code>year</code>, <code>engine</code>) decreased accuracy.</p>
 
-<h2>🛠 How to Run</h2>
+<h2> How to Run</h2>
 <pre>
 pip install -r requirements.txt
 </pre>
 
 <pre><code>import joblib
-model = joblib.load("models/best_model.pkl")
+model = joblib.load("models/xgboost_pipeline_tuned.pkl")
 predictions = model.predict(X_test)
 </code></pre>
 
@@ -130,6 +130,6 @@ predictions = model.predict(X_test)
 <h2> Credits</h2>
 <p>Developed by <strong>Abhijeet K.C.</strong> during the ML Project (2025). Dataset: <code>car.csv</code></p>
 
-<h2> Happy Coding! </h2>
+<p> Happy Coding! </p>
 </body>
 
